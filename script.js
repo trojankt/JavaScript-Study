@@ -21,5 +21,5 @@ console.log(     40 + 8 + 23 - 10);
 
 //bolean variable
 true;
-console.log(true);
+console.log(javascriptItFun);
 let javascriptItFun = true;
