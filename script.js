@@ -19,7 +19,12 @@ console.log(     40 + 8 + 23 - 10);
 */
 
 
-//bolean variable
+//boolean variable
 true;
-console.log(javascriptItFun);
+
 let javascriptItFun = true;
+console.log(javascriptItFun);
+
+console.log(typeof javascriptItFun);
+console.log(typeof 'Krystek');
+console.log(typeof 1993);
