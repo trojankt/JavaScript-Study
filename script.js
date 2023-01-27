@@ -1,4 +1,4 @@
-
+/* komentarz wierszowy za pomocą gwiazdki 
 let js = "amazing";
 console.log(     40 + 8 + 23 - 10);
 console.log('Trojan');
@@ -13,3 +13,13 @@ let population = 1000000;
 let continent ='Europe';
 let language ='';
 console.log(isIsland, population, continent, language );
+
+
+console.log(     40 + 8 + 23 - 10);
+*/
+
+
+//bolean variable
+true;
+console.log(true);
+let javascriptItFun = true;
