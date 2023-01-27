@@ -28,3 +28,10 @@ console.log(javascriptItFun);
 console.log(typeof javascriptItFun);
 console.log(typeof 'Krystek');
 console.log(typeof 1993);
+
+javascriptItFun = "YES";
+console.log(typeof javascriptItFun);
+
+let year;
+console.log(year);
+console.log(typeof year);
