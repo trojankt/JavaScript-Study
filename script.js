@@ -13,13 +13,11 @@ let population = 1000000;
 let continent ='Europe';
 let language ='';
 console.log(isIsland, population, continent, language );
-
-
 console.log(     40 + 8 + 23 - 10);
 */
 
-
-//boolean variable
+/*
+//*****boolean variable*****
 true;
 
 let javascriptItFun = true;
@@ -35,3 +33,10 @@ console.log(typeof javascriptItFun);
 let year;
 console.log(year);
 console.log(typeof year);
+*/
+
+// *****Deklarowanie zmiennych w JS let, const & var***** 
+//  Zmiana wartośi zmiennej z jednej na drugą nazywamy "ZMUTOWANIEM" (mutanted)
+
+ 
+
