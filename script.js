@@ -39,15 +39,15 @@ console.log(typeof year);
 //  Zmiana wartośi zmiennej z jednej na drugą nazywamy "ZMUTOWANIEM" (mutanted)
 
 
-const age = 16;
+const age = 15;
 const old = age >= 18;
 
 if (old) {
-    console.log('Krystian can driving by car')
-};
+    console.log('Krystian can driving by car');
+}else{
+    const yearsLeft = 18 - age;
+    console.log(`You are to yong to driving wait another ${yearsLeft} years:)`); 
+}
 
 
-// } else{
-//     const yearsLeft = 18 - age;
-//     console.log('You are to yong to driving wait another ${yearsleft} years:)}');
-// }
+ 
