@@ -38,5 +38,9 @@ console.log(typeof year);
 // *****Deklarowanie zmiennych w JS let, const & var***** 
 //  Zmiana wartośi zmiennej z jednej na drugą nazywamy "ZMUTOWANIEM" (mutanted)
 
- 
+const age = 16
+
+if (age >= 18){
+console.log('Krystian can driving by car');
+}
 
