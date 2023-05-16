@@ -60,3 +60,10 @@ document.addEventListener('click', function handleClickOutsideBox(event) {
   }
 });
  
+document.querySelectorAll('div').forEach((container) => {
+    let box =  container.querySelector('box')
+    box.addEventListener('click', (e) => {
+        container.querySelector('child').classList.toggle('active')
+        dt.classList.toggle('rotate')
+    });
+});
