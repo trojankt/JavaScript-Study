@@ -49,5 +49,14 @@ if (old) {
     console.log(`You are to yong to driving wait another ${yearsLeft} years:)`); 
 }
 
+document.addEventListener('click', function handleClickOutsideBox(event) {
+  // 👇️ the element the user clicked
+  console.log('user clicked: ', event.target);
 
+  const box = document.getElementById('box');
+
+  if (!box.contains(event.target)) {
+    box.style.display = 'none';
+  }
+});
  
