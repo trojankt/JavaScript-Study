@@ -61,9 +61,9 @@ document.addEventListener('click', function handleClickOutsideBox(event) {
 });
  
 document.querySelectorAll('div').forEach((container) => {
-    let box =  container.querySelector('box')
+    let box =  container.querySelectorClassList('box')
     box.addEventListener('click', (e) => {
-        container.querySelector('child').classList.toggle('active')
-        dt.classList.toggle('rotate')
+        container.querySelectorClassList('child').classList.toggle('active')
+        child.classList.toggle('rotate')
     });
 });
