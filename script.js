@@ -79,7 +79,20 @@ document.querySelectorAll('div').forEach((container) => {
 const imageElement = document.getElementById('myImage');
 
 imageElement.addEventListener('click', function(event) {
-  const newImageUrl = 'https://example.com/new-image.jpg';
+  const newImageUrl = 'image/teams-image.png';
 
   imageElement.setAttribute('src', newImageUrl);
 });
+
+// Create a variable to store the image you want to change.
+var image = document.getElementById('myImage');
+
+// Create a function to change the image.
+function changeImage(oldImage, newImage) {
+  image.src = newImage;
+}
+
+// In the onclick event of the element you want to change, call the function to change the image.
+document.getElementById('myButton').onclick = function() {
+  changeImage(image, 'newImage.jpg');
+};
