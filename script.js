@@ -73,3 +73,13 @@ document.querySelectorAll('div').forEach((container) => {
         child.classList.toggle('rotate')
     });
 });
+
+
+
+const imageElement = document.getElementById('myImage');
+
+imageElement.addEventListener('click', function(event) {
+  const newImageUrl = 'https://example.com/new-image.jpg';
+
+  imageElement.setAttribute('src', newImageUrl);
+});
