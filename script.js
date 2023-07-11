@@ -53,12 +53,18 @@ document.addEventListener('click', function handleClickOutsideBox(event) {
   // 👇️ the element the user clicked
   console.log('user clicked: ', event.target);
 
-  const box = document.getElementById('box');
+  const box = document.getElementsById('box');
 
   if (!box.contains(event.target)) {
     box.style.display = 'none';
   }
 });
+
+var intro = document.querySelectorAll('box'); intro.setAttribute('id', 'Introduction_ 1');
+
+document.querySelector('.child').classList.add('salmon');
+
+
  
 document.querySelectorAll('div').forEach((container) => {
     let box =  container.querySelectorClassList('box')
