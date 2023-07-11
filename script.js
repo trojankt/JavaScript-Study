@@ -79,7 +79,7 @@ document.querySelectorAll('div').forEach((container) => {
 const imageElement = document.getElementById('myImage');
 
 imageElement.addEventListener('click', function(event) {
-  const newImageUrl = 'https://example.com/new-image.jpg';
+  const newImageUrl = '/image/teams-image.png';
 
   imageElement.setAttribute('src', newImageUrl);
 });
