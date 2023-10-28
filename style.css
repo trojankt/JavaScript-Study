@@ -1,0 +1,36 @@
+.sport-card {
+  padding: 50px 0;
+}
+.sport-card .container-fluid .row {
+  overflow: hidden;
+}
+.sport-card .container-fluid .row .col-lg-12 {
+  padding: 40px 0;
+}
+.sport-card .container-fluid .row .swiper-wrapper .swiper-slide .block {
+  position: relative;
+}
+.sport-card .container-fluid .row .swiper-wrapper .swiper-slide .block .image img {
+  width: 100%;
+  border-radius: 15px;
+}
+.sport-card .container-fluid .row .swiper-wrapper .swiper-slide .block .grid-text {
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+.sport-card .container-fluid .row .swiper-wrapper .swiper-slide .block .grid-text p {
+  width: 60%;
+  text-align: center;
+  margin: 0;
+}
+.sport-card .container-fluid .row .swiper-wrapper .swiper-slide .stack {
+  display: grid;
+}
+.sport-card .container-fluid .row .swiper-wrapper .swiper-slide .stack > div {
+  grid-column: -1/1;
+  grid-row: 1;
+}/*# sourceMappingURL=style.css.map */

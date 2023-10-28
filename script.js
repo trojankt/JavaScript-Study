@@ -96,3 +96,34 @@ function changeImage(oldImage, newImage) {
 document.getElementById('myButton').onclick = function() {
   changeImage(image, 'newImage.jpg');
 };
+
+const cardSwiper = new Swiper(".card-swiper", {
+    
+  slideClass: 'option',
+  slidesPerView: 1,
+  spaceBetween: 20,
+  autoplay: {
+      delay: 5000,
+  },
+
+  slidesPerView: 1,
+  spaceBetween: 10,
+  // Responsive breakpoints
+  breakpoints: {
+      // when window width is >= 320px
+      640: {
+          slidesPerView: 2,
+          spaceBetween: 30,
+      },
+
+      900: {
+          slidesPerView: 3,
+          spaceBetween: 30,
+      },
+      // when window width is >= 480px
+      1400: {
+          slidesPerView: 4,
+          spaceBetween: 62,
+      },
+  },
+});
